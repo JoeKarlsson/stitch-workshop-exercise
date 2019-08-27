@@ -1,0 +1,45 @@
+{
+    "database": "journal",
+    "collection": "test",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {
+                "%%true": {
+                    "%function": {
+                        "name": "returnsTrue",
+                        "arguments": []
+                    }
+                }
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "additional_fields": {
+                "write": true,
+                "read": true
+            }
+        }
+    ],
+    "schema": {
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            },
+            "quux": {
+                "bsonType": "int",
+                "validate": {
+                    "%%true": {
+                        "%function": {
+                            "name": "returnsArg",
+                            "arguments": [
+                                true
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

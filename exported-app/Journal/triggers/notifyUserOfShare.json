@@ -1,0 +1,16 @@
+{
+    "name": "notifyUserOfShare",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "UPDATE"
+        ],
+        "database": "journal",
+        "collection": "entries",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "full_document": true
+    },
+    "function_name": "notifyWithTrigger",
+    "disabled": false
+}

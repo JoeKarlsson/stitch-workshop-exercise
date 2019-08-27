@@ -1,0 +1,11 @@
+{
+    "name": "local-userpass",
+    "type": "local-userpass",
+    "config": {
+        "emailConfirmationSubject": "confirm",
+        "emailConfirmationUrl": "http://localhost:8000/confirm",
+        "resetPasswordSubject": "reset",
+        "resetPasswordUrl": "http://localhost:8000/reset"
+    },
+    "disabled": false
+}

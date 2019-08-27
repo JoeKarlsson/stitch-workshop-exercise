@@ -1,0 +1,39 @@
+{
+    "database": "journal",
+    "collection": "entries",
+    "roles": [
+        {
+            "name": "owner",
+            "apply_when": {
+                "owner_id": "%%user.id"
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "additional_fields": {
+                "write": true,
+                "read": true
+            }
+        },
+        {
+            "name": "shared",
+            "apply_when": {
+                "sharedWith": "%%user.data.email"
+            },
+            "read": true,
+            "insert": false,
+            "delete": false,
+            "additional_fields": {
+                "read": true
+            }
+        }
+    ],
+    "schema": {
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            }
+        }
+    }
+}

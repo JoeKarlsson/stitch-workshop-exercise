@@ -1,0 +1,9 @@
+{
+    "name": "canSend",
+    "actions": [
+        "send"
+    ],
+    "when": {
+        "%%args.fromAddress": "mdbstitchjournal@gmail.com"
+    }
+}
