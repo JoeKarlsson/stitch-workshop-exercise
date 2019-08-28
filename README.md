@@ -4,7 +4,7 @@
 
 ## Additional Resources
 
-- [Stitch Slides](https://slides.com/joekarlsson/graphql): Slides from the lecture
+- [Stitch Slides](https://speakerdeck.com/joekarlsson/a-gentle-introduction-to-building-serverless-apps-with-mongodb-stitch): Slides from the lecture
 - [$200 in free Atlas credits](bit.ly/serverlessMN): Use the link to get $200 in free credits
 
 ## Quickstart
