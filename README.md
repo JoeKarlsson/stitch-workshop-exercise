@@ -2,6 +2,10 @@
 
 ![stitch-demo-gif](https://user-images.githubusercontent.com/4650739/63880981-75310380-c994-11e9-9c91-f592b18c566c.png)
 
+Do you want to crank out features the business wants, or spend a lot of time writing code and capacity planning for authentication, authorization, and complicated data access? Of course we all know the answer.
+
+In this session will begin a beginner friendly introduction to Serverless computing. We will then do a quick overview of the MongoDB ecosystem in the 3 major cloud providers for rapid application building. Then we will walk through a guided tutorial of how to use the MongoDB Stitch serverless platform to build your elastically scalable microservices based app within minutes, complete with end-user authentication and access rules, on a fully managed MongoDB cluster in your favorite cloud platform.
+
 ## Additional Resources
 
 - [Stitch Slides](https://speakerdeck.com/joekarlsson/a-gentle-introduction-to-building-serverless-apps-with-mongodb-stitch): Slides from the lecture
