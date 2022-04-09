@@ -31,7 +31,7 @@
     "fs-extra": "3.0.1",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "mongodb-stitch-browser-sdk": "^4.0.0-beta-4",
     "object-assign": "4.1.1",
     "pack-zip": "^0.2.2",
